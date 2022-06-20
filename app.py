@@ -4,7 +4,7 @@ import pathlib
 import plotly.express as px
 import platform
 #plotly vazifasi grafikniu chiroyli qilib chizib berish
-plt = platform.systeam()
+plt = platform.system()
 if plt=='Linux':pathlib.WindowsPath = pathlib.PosixPath
 st.title("Obyektni klassifikatsiya qiladigan dastur![Pineapple,Orange,Aplle,Peach]")
 
