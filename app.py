@@ -1,11 +1,13 @@
-import pathlib
-temp = pathlib.PosixPath
+
 pathlib.PosixPath = pathlib.WindowsPath
 #plotly vazifasi grafikniu chiroyli qilib chizib berish
 import plotly.express as px
 import streamlit as st
 from fastai.vision.all import *
-
+import platform
+import pathlib
+plt = platform.systeam()
+if plt=='Linux':pathlib.WindowsPath = pathlib.PosixPath
 st.title("Obyektni klassifikatsiya qiladigan dastur!")
 
 
